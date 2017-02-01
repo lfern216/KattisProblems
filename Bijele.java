@@ -27,11 +27,8 @@ public class Bijele {
 		bishops -= z;
 		knights -= u;
 		pawns -= i;
-			
+		
 		System.out.print(king + " " + queen + " " + rooks + " " + bishops + " " +
 		knights + " " + pawns);
-
-
 	}
-
 }
