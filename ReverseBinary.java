@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-
 public class ReverseBinary {
 
 	public static void main(String[] args) {
@@ -31,7 +30,6 @@ public class ReverseBinary {
 				if(number==0){
 					break;
 				}
-			
 			}
 		}//end of while
 	
