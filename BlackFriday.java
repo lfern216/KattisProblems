@@ -52,32 +52,6 @@ public class BlackFriday {
 			System.out.println("none");
 		}else{
 			System.out.println(res.pop());
-		}
-		
+		}	
 	}
 	}
-
-/*
-Scanner inn = new Scanner(System.in);
-HashSet<Integer> visited = new HashSet();
-HashMap<Integer, Integer> unique = new HashMap();
-int n = inn.nextInt();
-for(int i = 0; i < n; i++) {
-    int a = inn.nextInt();
-    if(!visited.contains(a))
-        unique.put(a, i);
-    else
-        unique.remove(a);
-
-    visited.add(a);
-}
-int max = 0, index = 0;
-for(int key : unique.keySet()) {
-    if(key > max) {
-        max = key;
-        index = unique.get(key);
-    }
-}
-
-System.out.println(max == 0 ? "none" : index + 1);
-*/
