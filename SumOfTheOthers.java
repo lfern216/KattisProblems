@@ -18,18 +18,10 @@ public class SumOfTheOthers {
 			if(temp>max){
 				max = temp;
 			}
-			
 		}//end of for
-		
+			
 		System.out.println(max);
 		max = -1000;
-		
 		}
 	}
-
 }
-/*
--54 -32 -21 -65 -78
--54 -32 -21 -65 -78
- */
- 
