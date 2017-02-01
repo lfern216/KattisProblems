@@ -14,9 +14,6 @@ public class Modulo {
 			
 			set.add(temp%42);
 		}
-		
 		System.out.println(set.size());
-
 	}
-
 }
