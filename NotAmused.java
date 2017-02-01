@@ -6,7 +6,6 @@ import java.util.ListIterator;
 
 public class NotAmused {
 	
-	
 	public static void deletePerson(String p, LinkedList<String> list){
 		
 		if(list==null){
@@ -21,7 +20,6 @@ public class NotAmused {
 				it.remove();
 			}
 		}
-		
 	}
 
 	public static void main(String[] args) {
@@ -34,5 +32,4 @@ public class NotAmused {
 		deletePerson(g,f);
 
 	}
-
 }
