@@ -7,7 +7,6 @@ public class DigitSum {
 	public static void main(String[] args) {
 		
 		System.out.println(Math.floor(3.5));
-	
 		
 		Scanner in = new Scanner(System.in);
 		int converter = in.nextInt();
@@ -71,6 +70,5 @@ public class DigitSum {
 				res = 0;
 			}
 		}
-		
 	}//end of main 
 }
