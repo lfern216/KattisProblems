@@ -18,7 +18,6 @@ public class natrij {
 		String b = "";
 		String c = "";
 		
-		//first
 		int hours = Integer.parseInt(first.substring(0, 2));
 		int min = Integer.parseInt(first.substring(3, 5));
 		int seconds = Integer.parseInt(first.substring(6));
@@ -28,7 +27,6 @@ public class natrij {
 		int min2 = Integer.parseInt(second.substring(3, 5));
 		int seconds2 = Integer.parseInt(second.substring(6));
 		
-	
 		if(seconds>seconds2){
 			int tempseconds = 0;
 			tempseconds = 60-seconds;
@@ -45,7 +43,6 @@ public class natrij {
 			int temp3 = 60-min;
 			totalb = temp3+min2;
 			hours++;
-			
 		}else{
 			totalb = min2-min;
 		}
@@ -55,7 +52,6 @@ public class natrij {
 			
 			int temp = 24-hours; 
 			totalc = hours2+temp; 
-			
 		}else{
 			totalc = hours2-hours;
 		}
@@ -83,7 +79,5 @@ public class natrij {
 		}
 		
 		System.out.println(c+":"+b+":"+a);
-		
 	}
-
 }
