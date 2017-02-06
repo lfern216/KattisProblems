@@ -36,8 +36,7 @@ public class Cannonball {
 			System.out.println("Safe");
 		}else{
 			System.out.println("Not Safe");
-		}
-		
-		}//end of for		
-}
+		}	
+	}//end of for		
+}//end of main
 }
